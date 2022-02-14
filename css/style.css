@@ -8,13 +8,20 @@ body {
 .customCard {
   background-color: #14253d; }
   .customCard__title {
+    text-decoration: none;
     font-weight: 600;
     font-size: 1.6rem;
     color: white; }
+    .customCard__title:hover {
+      color: #00fff7; }
   .customCard__subtitle {
     font-weight: 300;
     font-size: 1.3rem;
     color: #8bacda; }
+  .customCard img:hover {
+    opacity: 50%; }
+  .customCard .image-filter {
+    background-color: #00fff7; }
   .customCard .price span {
     color: #00fff7; }
   .customCard .time span {
@@ -30,3 +37,5 @@ body {
     .customCard .author span a {
       color: white;
       text-decoration: none; }
+      .customCard .author span a:hover {
+        color: #00fff7; }

@@ -10,6 +10,10 @@ body{
 .customCard{
     background-color: hsl(216, 50%, 16%);
     &__title{
+        &:hover{
+            color: hsl(178, 100%, 50%);
+        }
+        text-decoration: none;
         font-weight: 600;
         font-size: 1.6rem;
         color: hsl(0, 0%, 100%); 
@@ -19,6 +23,15 @@ body{
         font-size: 1.3rem;
         color: hsl(215, 51%, 70%);
     }
+
+    img:hover{
+        opacity: 50%;
+    }
+
+    .image-filter{
+        background-color: hsl(178, 100%, 50%);
+    }
+
     .price{
         span{
             color: hsl(178, 100%, 50%);
@@ -43,6 +56,9 @@ body{
             a{
                 color: white;
                 text-decoration: none;
+                &:hover{
+                    color: hsl(178, 100%, 50%);
+                }
             }
         }
     }

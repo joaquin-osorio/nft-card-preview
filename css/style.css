@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+body {
+  background-color: #0d192b;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Outfit', sans-serif; }
+
+.customCard {
+  background-color: #14253d; }
+  .customCard__title {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: white; }
+  .customCard__subtitle {
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: #8bacda; }
+  .customCard .price span {
+    color: #00fff7; }
+  .customCard .time span {
+    color: #8bacda; }
+  .customCard .line {
+    width: 100%;
+    height: 2px;
+    border-bottom: 1px solid #8bacda; }
+  .customCard .author img {
+    width: 40px; }
+  .customCard .author span {
+    color: #8bacda; }
+    .customCard .author span a {
+      color: white;
+      text-decoration: none; }
